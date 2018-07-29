@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImRa35</string>
+    <string name="drawer_open" />
+    <string name="drawer_close" />
+    <string name="facebook_app_id">503180620139302</string>
+    <string name="fb_login_protocol_scheme">fb503180620139302</string>
+
+    <string name="CONSUMER_KEY">MhWSmeVPNwgsg2DXuf0qkHkI6</string>
+    <string name="CONSUMER_SECRET">rZUKHX98SpIeqRf9ST6VAIwcesMVigBK8CxlTDQwnxNBahm4bw</string>
+
+</resources>

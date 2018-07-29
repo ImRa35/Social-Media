@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baci"
+    android:orientation="vertical"
+    tools:context="com.rbk.imra35.ProfileActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:id="@+id/my_profile_full_name"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:text="Full Name"
+                       android:textStyle="bold|italic"
+                       android:textSize="20sp"
+                       android:textColor="@color/colorPrimary"/>
+
+                   <ImageView
+                       android:id="@+id/my_header_pic"
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:src="@drawable/header"
+                       android:scaleType="centerCrop"/>
+
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="-65dp">
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:id="@+id/my_profile_pic"
+                       android:layout_width="130dp"
+                       android:layout_height="130dp"
+                       android:src="@drawable/profile"/>
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+
+                       <TextView
+                           android:id="@+id/my_profile_username"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="UserName"
+                           android:layout_marginTop="70dp"
+                           android:layout_marginLeft="10dp"
+                           android:textColor="@android:color/holo_red_light"
+                           android:textSize="18sp"
+                           android:textStyle="italic|bold"/>
+
+                       <TextView
+                           android:id="@+id/my_profile_status"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Status"
+                           android:textStyle="italic"
+                           android:textColor="@android:color/black"
+                           android:layout_marginLeft="10dp"/>
+
+                   </LinearLayout>
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:id="@+id/my_profile_phone"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textStyle="italic"
+                       android:textColor="@android:color/black"
+                       android:textSize="15sp"/>
+
+                   <TextView
+                       android:id="@+id/my_profile_gender"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:textStyle="italic"
+                       android:textSize="15sp"/>
+
+                   <TextView
+                       android:id="@+id/my_profile_dob"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:textStyle="italic"
+                       android:textSize="15sp"/>
+
+                   <TextView
+                       android:id="@+id/my_profile_study"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:textStyle="italic"
+                       android:textSize="15sp"/>
+
+                   <TextView
+                       android:id="@+id/my_profile_work"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textStyle="italic"
+                       android:textColor="@android:color/black"
+                       android:textSize="15sp"/>
+
+                   <TextView
+                       android:id="@+id/my_profile_country"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textStyle="italic"
+                       android:textColor="@android:color/black"
+                       android:textSize="15sp"/>
+
+                   <TextView
+                       android:id="@+id/my_profile_relation"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textStyle="italic"
+                       android:textColor="@android:color/black"
+                       android:textSize="15sp"/>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+
+                   <Button
+                       android:id="@+id/my_post_button"
+                       android:layout_width="165dp"
+                       android:layout_height="30dp"
+                       android:text="No of Posts"
+                       android:layout_marginRight="5dp"
+                       android:background="@android:color/black"
+                       android:textColor="@android:color/white"
+                       android:layout_marginLeft="5dp"/>
+
+                   <Button
+                       android:id="@+id/my_friends_button"
+                       android:layout_width="165dp"
+                       android:layout_height="30dp"
+                       android:text="No of Friends"
+                       android:layout_marginRight="5dp"
+                       android:layout_marginLeft="5dp"
+                       android:background="@android:color/black"
+                       android:textColor="@android:color/white"
+                       />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+                   <Button
+                       android:id="@+id/editProfile"
+                       android:layout_width="match_parent"
+                       android:layout_height="30dp"
+                       android:text="Edit Profile"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginLeft="5dp"
+                       android:layout_marginRight="5dp"
+                       android:textColor="@android:color/white"
+                       android:background="@color/colorPrimary"/>
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "808774779559",
+    "firebase_url": "https://bluebrain-b8a40.firebaseio.com",
+    "project_id": "bluebrain-b8a40",
+    "storage_bucket": "bluebrain-b8a40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808774779559:android:08c3614a6c04d478",
+        "android_client_info": {
+          "package_name": "com.rbk.bluebrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808774779559-41t3molst80pmrd3v4p3stirpuet4cs5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rbk.bluebrain",
+            "certificate_hash": "aff16945a0697f711ef0ad7c748687b5e20c0e35"
+          }
+        },
+        {
+          "client_id": "808774779559-rhvqtof31dj6rj7t37khtieisq98cnb8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808774779559-rhvqtof31dj6rj7t37khtieisq98cnb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIlhEwx_TfzOsuCkkdj1grdA9K7InSdKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808774779559-rhvqtof31dj6rj7t37khtieisq98cnb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808774779559:android:c4b50b4e159336ac",
+        "android_client_info": {
+          "package_name": "com.rbk.imra35"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808774779559-hceu4o4b0ljmsifo1db86mp6tpn8g3vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rbk.imra35",
+            "certificate_hash": "aff16945a0697f711ef0ad7c748687b5e20c0e35"
+          }
+        },
+        {
+          "client_id": "808774779559-rhvqtof31dj6rj7t37khtieisq98cnb8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808774779559-rhvqtof31dj6rj7t37khtieisq98cnb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIlhEwx_TfzOsuCkkdj1grdA9K7InSdKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808774779559-rhvqtof31dj6rj7t37khtieisq98cnb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
